@@ -20,7 +20,6 @@ This project is a **REST API** for managing images in a **CDN** (upload, fetch, 
 
 - **Upload image** – `POST /images`
 - **Get all images** – `GET /images`
-- **Get image by ID** – `GET /images/:id`
 - **Delete image** – `DELETE /images/:id`
 
 Images are stored in **Cloudinary**, while metadata (name, URL, type, createdAt) is stored in **MongoDB**.
