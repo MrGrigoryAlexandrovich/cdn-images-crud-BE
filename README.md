@@ -84,7 +84,7 @@ DELETE /images/:id
 ## Project Structure
 
 ```
-/cdn-images-crud
+/cdn-images-crud-BE
 │
 ├─ src
 │  ├─ config
@@ -98,7 +98,6 @@ DELETE /images/:id
 │     └─ index.ts
 │
 ├─ .env
-├─ desktop.ini
 ├─ docker-compose.yml
 ├─ Dockerfile
 ├─ package-lock.json
