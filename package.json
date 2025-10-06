@@ -1,16 +1,20 @@
 {
   "name": "cdn-images-crud-be",
   "version": "1.0.0",
+  "description": "This project is a REST API for managing images in a CDN (upload, fetch, delete) with metadata stored in MongoDB. The API can be integrated with frontends or other services that need image access.",
   "main": "index.ts",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
     "build": "tsc",
     "start": "node dist/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Node.js",
+    "CDN",
+    "cloudinary"
+  ],
+  "author": "Ahmed Cvrčak",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@types/express": "^5.0.3",
     "@types/multer": "^2.0.0",
